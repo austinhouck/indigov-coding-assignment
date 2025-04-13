@@ -106,8 +106,9 @@ button:hover {
 
 .form-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
   gap: 1rem;
+  width: 100%;
 }
 
 .form-group {
@@ -127,6 +128,14 @@ button:hover {
 }
 
 .constituents-table th {
-  background-color: #f5f5f5;
+  background-color: #f0f0f0;
   text-align: left;
+}
+
+.constituents-table tr:hover {
+  background-color: #f9f9f9;
+}
+
+.section-header {
+  margin-top: 3rem;
 }
