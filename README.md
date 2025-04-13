@@ -1,5 +1,7 @@
 # Constituent App
 
+![App Screenshot](./app-screenshot.png)
+
 A full-stack application with:
 - PostgreSQL database
 - Express backend with TypeScript
