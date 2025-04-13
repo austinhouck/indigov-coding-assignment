@@ -32,15 +32,7 @@ A full-stack application with:
 - [Docker](https://www.docker.com/products/docker-desktop) and Docker Compose
 - [Node.js](https://nodejs.org/) and npm (optional, for local development)
 
-### Development With Docker
-
-Start the development environment with hot-reloading:
-
-```bash
-docker-compose -f docker-compose.dev.yml up
-```
-
-### Production With Docker
+### Launch With Docker
 
 Start the production environment:
 
@@ -48,32 +40,10 @@ Start the production environment:
 docker-compose up -d
 ```
 
-### Development Without Docker
-
-#### Backend
-```bash
-cd server
-npm install
-npm run dev
-```
-
-#### Frontend
-```bash
-cd client
-npm install
-npm start
-```
-
 ### Access
 
-#### Development Environment
 - Frontend: http://localhost:3000
 - Backend API: http://localhost:8080/api
-- PostgreSQL: localhost:5432
-
-#### Production Environment
-- Frontend: http://localhost
-- Backend API: http://localhost/api
 - PostgreSQL: localhost:5432
 
 ## Database
@@ -114,7 +84,7 @@ docker-compose up --build
 ## API Routes
 
 - `GET /api/` - Server status
-- `GET /api/users` - List all users
+- `GET /api/constituents` - List all constituents
 
 ## Project Structure Details
 
